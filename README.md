@@ -12,4 +12,4 @@ I am planning on using Windows PE 3 (Windows 7).
 
 This version is compatible with most computers. 
 
-Plus it is basically future proof, as long am MS keeps using WIMs.
+This method is basically future proof, as long am MS keeps using WIM files.
