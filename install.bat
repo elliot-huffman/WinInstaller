@@ -272,7 +272,7 @@ goto install
 
 :Boot
 cls
-echo This will install EasyBCD from which you can install the Bootloader.
+echo This will run EasyBCD from which you can install the Boot Loader.
 pause
 Y:\Programs\EasyBCD\EasyBCD.exe
 cls
