@@ -23,7 +23,10 @@ echo 2. Windows Client
 set /p selection=Please chose which OS type you want [1 or 2]:
 if %selection% EQU 1 goto Server
 if %selection% EQU 2 goto Client
-
+cls
+echo Invalid input try again!
+pause
+goto Menu
 
 :Server
 cls
@@ -33,7 +36,10 @@ echo 2. Server 2012 (x64)
 set /p selection=Please chose which OS you want [1 or 2]:
 if %selection% EQU 1 goto 2008
 if %selection% EQU 2 goto 2012
-
+cls
+echo Invalid input try again!
+pause
+goto Server
 
 :Client
 cls
@@ -45,7 +51,10 @@ set /p selection=Please chose which OS you want [1, 2 or 3]:
 if %selection% EQU 1 goto 8
 if %selection% EQU 2 goto 7
 if %selection% EQU 3 goto Vista
-
+cls
+echo Invalid input try again!
+pause
+goto Client
 
 
 :2008
@@ -64,6 +73,10 @@ if %selection% EQU 3 goto i17
 if %selection% EQU 4 goto i16
 if %selection% EQU 5 goto i15
 if %selection% EQU 6 goto i14
+cls
+echo Invalid input try again!
+pause
+goto 2008
 
 :2012
 cls
@@ -78,7 +91,10 @@ if %selection% EQU 1 goto i23
 if %selection% EQU 2 goto i22
 if %selection% EQU 3 goto i21
 if %selection% EQU 4 goto i20
-
+cls
+echo Invalid input try again!
+pause
+goto 2012
 
 
 :8
@@ -93,6 +109,10 @@ if %selection% EQU 1 goto i10
 if %selection% EQU 2 goto i11
 if %selection% EQU 3 goto i12
 if %selection% EQU 4 goto i13
+cls
+echo Invalid input try again!
+pause
+goto 8
 
 
 :7
@@ -117,6 +137,11 @@ if %selection% EQU 6 goto i9
 if %selection% EQU 7 goto i8
 if %selection% EQU 8 goto i7
 if %selection% EQU 9 goto i6
+cls
+echo Invalid input try again!
+pause
+goto 7
+
 
 :Vista
 cls
@@ -144,7 +169,10 @@ if %selection% EQU 8 goto i31
 if %selection% EQU 9 goto i32
 if %selection% EQU 10 goto i33
 if %selection% EQU 11 goto i34
-
+cls
+echo Invalid input try again!
+pause
+goto Vista
 
 
 
