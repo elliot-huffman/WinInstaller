@@ -5,11 +5,9 @@ A custom installer for Windows from Windows PE.
 
 This will install Windows from WIM files.
 
-I need some help on partitioning disks from the command prompt.
 
 
-I am planning on using Windows PE 3 (Windows 7).
+The script is designed to be run from windows PE. (it can run from normal computers also)
+(I tested it from my computer *Windows 8*)
 
-This version is compatible with most computers. 
-
-This method is basically future proof, as long am MS keeps using WIM files.
+This method is also basically future proof, as long am MS keeps using WIM files.
